@@ -11,7 +11,7 @@ images["pipe"] = pygame.image.load("pipe.png").convert_alpha()
 images["invertedpipe"]=pygame.transform.flip(images["pipe"], False, True)
 bird=pygame.Rect(100,250,30,30)
 groundx=0
-speed=5
+speed=1
 g=0.5
 def gravity():
     speed=speed+g
