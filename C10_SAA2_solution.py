@@ -24,7 +24,6 @@ def gravity():
     bird.y=bird.y+speed
     
 def display():
-    global speed
     print(speed)
 
 while True:
